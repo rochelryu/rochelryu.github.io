@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ad593138-f33e-483f-8a85-c002fb4d01ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/blog-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog-details.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="263" column="35" selection-start-line="263" selection-start-column="26" selection-end-line="263" selection-end-column="35" />
+            <state relative-caret-position="370">
+              <caret line="140" column="81" lean-forward="true" selection-start-line="140" selection-start-column="81" selection-end-line="140" selection-end-column="81" />
               <folding>
                 <element signature="n#header#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
@@ -41,7 +40,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
@@ -79,10 +78,10 @@
       <find>side</find>
       <find>subje</find>
       <find>logo</find>
-      <find>.main_blog_details .blockquote p</find>
       <find>INTR</find>
-      <find>face</find>
       <find>footer</find>
+      <find>.main_blog_details .blockquote p</find>
+      <find>face</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -92,8 +91,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/blog-details.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/blog-details.html" />
       </list>
     </option>
   </component>
@@ -162,12 +161,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565791685287</updated>
-      <workItem from="1565791688104" duration="10402000" />
+      <workItem from="1565791688104" duration="10737000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10402000" />
+    <option name="totallyTimeSpent" value="10737000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="153" y="27" width="1108" height="687" extended-state="0" />
@@ -179,7 +178,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="GraphQL" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.22532588" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.05586592" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -205,6 +204,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="698" column="13" selection-start-line="698" selection-start-column="13" selection-end-line="698" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -217,19 +223,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog-details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="263" column="35" selection-start-line="263" selection-start-column="26" selection-end-line="263" selection-end-column="35" />
+        <state relative-caret-position="370">
+          <caret line="140" column="81" lean-forward="true" selection-start-line="140" selection-start-column="81" selection-end-line="140" selection-end-column="81" />
           <folding>
             <element signature="n#header#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="698" column="13" selection-start-line="698" selection-start-column="13" selection-end-line="698" selection-end-column="13" />
         </state>
       </provider>
     </entry>
