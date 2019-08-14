@@ -693,7 +693,13 @@ h2 {
 }
 h3 {
   font-size: 24px; }
-
+.volet{
+  display: block;
+  font-size: 24px;
+  color:#333;
+  letter-spacing: 1.1em;
+  text-align: center;
+}
 h4 {
   font-size: 18px; }
 h5 {
