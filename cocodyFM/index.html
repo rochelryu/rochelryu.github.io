@@ -1,0 +1,1255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Poca - Podcast &amp; Audio Template">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Title -->
+  <title>Cocody FM 98.5</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="./img/core-img/favicon.ico">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    var tab = ['Janvier', 'Fevrier', "Mars", 'Avril', "Mai", "Juin", "Juillet", "Août", "Septembre", 'Octobre', 'Novembre', "Decembre"]
+    function horo() {
+      var jr = new Date().getDate();
+      var hr = new Date().getHours();
+      var month = new Date().getMonth();
+      var years = new Date().getFullYear();
+      document.write(jr + ' ' + tab[month+1] + ' '+years+', '+hr+'h')
+    }
+  </script>
+</head>
+
+<body>
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="preloader-thumbnail">
+      <img src="./img/core-img/preloader.png" alt="">
+    </div>
+  </div>
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area">
+    <!-- Main Header Start -->
+    <div class="main-header-area">
+      <div class="classy-nav-container breakpoint-off">
+        <!-- Classy Menu -->
+        <nav class="classy-navbar justify-content-between" id="pocaNav">
+
+          <!-- Logo -->
+          <a class="nav-brand logoBrand" href="index.html">Logo<div></div></a>
+
+          <!-- Navbar Toggler -->
+          <div class="classy-navbar-toggler">
+            <span class="navbarToggler"><span></span><span></span><span></span></span>
+          </div>
+
+          <!-- Menu -->
+          <div class="classy-menu">
+
+            <!-- Menu Close Button -->
+            <div class="classycloseIcon">
+              <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+            </div>
+
+            <!-- Nav Start -->
+            <div class="classynav">
+              <ul id="nav">
+                <li class="Accueil current-item"><a class="focuss" href="/">Accueil</a></li>
+                <li class="Actu"><a class="focuss" href="#Actu">Actualité</a></li>
+                <!--<li class="Serv"><a href="#">Services</a>
+                  <ul class="dropdown">
+                    <li><a href="#">- Service 1 </a></li>
+                    <li><a href="#">- Service 2</a></li>
+                    <li><a href="#">- Service 3</a></li>
+                    <li><a href="#">- Service 4 </a>
+                      <ul class="dropdown">
+                        <li><a href="#">- Sous Service 1 </a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>-->
+                <li class="Prog"><a class="focuss" href="#Prog">Programme</a></li>
+                <li class="Equip"><a class="focuss" href="#Equip">Equipe</a></li>
+                <li class="Cont"><a class="focuss" href="#Contact">Contact</a></li>
+              </ul>
+
+              <!-- Top Search Area -->
+              <div class="top-search-area">
+                <form action="index.html" method="post">
+                  <input type="search" name="top-search-bar" class="form-control" placeholder="Vous recherchez quelque chose ?">
+                  <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </form>
+              </div>
+
+              <!-- Top Social Area -->
+
+            </div>
+            <!-- Nav End -->
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <!-- ***** Welcome Area Start ***** -->
+  <section class="welcome-area">
+    <!-- Welcome Slides -->
+    <div class="welcome-slides owl-carousel">
+
+      <!-- Single Welcome Slide -->
+      <div class="welcome-welcome-slide bg-img bg-overlay" style="background-image: url(img/bg-img/1.jpg);">
+        <div class="container h-100">
+          <div class="row h-100 align-items-center">
+            <div class="col-12">
+              <!-- Welcome Text -->
+              <div class="welcome-text">
+                <h2 data-animation="fadeInUp" data-delay="100ms">Coocody FM 98.5</h2>
+                <h5 data-animation="fadeInUp" data-delay="300ms">La radio qui vous rapproche des Hommes. Suivez nous sur :</h5>
+                <div class="welcome-btn-group">
+                  <a href="#" class="social-Share face" data-animation="fadeInUp" data-delay="500ms"><i class="fa fa-facebook-f"></i></a>
+                  <a href="#" class="social-Share twi" data-animation="fadeInUp" data-delay="500ms"><i class="fa fa-twitter"></i></a>
+                  <a href="#" class="social-Share link" data-animation="fadeInUp" data-delay="500ms"><i class="fa fa-linkedin"></i></a>
+                  <a href="#" class="social-Share yout" data-animation="fadeInUp" data-delay="500ms"><i class="fa fa-youtube"></i></a>
+                </div>
+              </div>
+              <div class="poca-music-area mt-100 d-flex align-items-center flex-wrap" data-animation="fadeInUp" data-delay="900ms">
+                <div class="poca-music-thumbnail">
+                  <img src="./img/bg-img/4.jpg" alt="">
+                </div>
+                <div class="poca-music-content">
+                  <span class="music-published-date"><script>horo();</script></span>
+                  <h2>Nom Emission - titre de la chanson</h2>
+                  <div class="music-meta-data">
+                    <p>Par <a href="#" class="music-author">Cocody FM</a> | <a href="#" class="music-duration">98.5</a></p>
+                  </div>
+                  <!-- Music Player -->
+                  <div class="poca-music-player">
+                    <audio preload="auto" controls>
+                      <source src="audio/dummy-audio.mp3">
+                    </audio>
+                  </div>
+                  <!-- Likes, Share & Download -->
+                  <!--<div class="likes-share-download d-flex align-items-center justify-content-between">
+                    <a href="#"><i class="fa fa-heart" aria-hidden="true"></i> Like (29)</a>
+                    <div>
+                      <a href="#" class="mr-4"><i class="fa fa-share-alt" aria-hidden="true"></i> Share(04)</a>
+                      <a href="#"><i class="fa fa-download" aria-hidden="true"></i> Download (12)</a>
+                    </div>
+                  </div>-->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- ***** Welcome Area End ***** -->
+
+  <!-- ***** Latest Episodes Area Start ***** -->
+  <section id="Actu" class="poca-latest-epiosodes section-padding-80">
+    <div class="container">
+      <div class="row">
+        <!-- Section Heading -->
+        <div class="col-12">
+          <div class="section-heading text-center">
+            <h2>Actualités</h2>
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects Menu -->
+    <div class="container">
+      <div class="poca-projects-menu mb-30 wow fadeInUp" data-wow-delay="0.3s">
+        <div class="text-center portfolio-menu">
+          <button class="btn active" data-filter="*">Toute les Actus</button>
+          <button class="btn" data-filter=".entre">Nouveautés</button>
+          <button class="btn" data-filter=".media">Populaires</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row poca-portfolio">
+
+        <!-- Single gallery Item -->
+        <div class="col-12 col-md-6 single_gallery_item entre wow fadeInUp" data-wow-delay="0.2s">
+          <!-- Welcome Music Area -->
+          <div class="poca-music-area style-2 d-flex align-items-center flex-wrap">
+            <div class="poca-music-thumbnail">
+              <img src="./img/core-img/all.jpg" alt="">
+            </div>
+            <div class="poca-music-content text-center">
+              <span class="music-published-date mb-2">27 Août, 2019</span>
+              <h2>Agalawal : l'humoriste fait un important don aux CHINOIS</h2>
+              <div class="music-meta-data">
+              </div>
+              <!-- Likes, Share & Download -->
+              <div class="likes-share-download d-flex align-items-center justify-content-between">
+                <a href="#"><i class="fa fa-heart" aria-hidden="true"></i> Appreciez <span>(29)</span></a>
+                <div>
+                  <a href="#" class="mr-4"><i class="fa fa-share-alt" aria-hidden="true"></i> Partagez <span>(04)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single gallery Item  entre tutor wow media wow tech tutor wow-->
+        <div class="col-12 col-md-6 single_gallery_item media wow fadeInUp" data-wow-delay="0.2s">
+          <!-- Welcome Music Area -->
+          <div class="poca-music-area style-2 d-flex align-items-center flex-wrap">
+            <div class="poca-music-thumbnail">
+              <img src="./img/core-img/2.jpg" alt="">
+            </div>
+            <div class="poca-music-content text-center">
+              <span class="music-published-date mb-2">27 Août, 2019</span>
+              <h2>OBSÈQUES Arafat : pourquoi son fils Owen, ne viendra pas</h2>
+              <div class="music-meta-data">
+              </div>
+              <!-- Likes, Share & Download -->
+              <div class="likes-share-download d-flex align-items-center justify-content-between">
+                <a href="#"><i class="fa fa-heart" aria-hidden="true"></i> Appreciez <span>(29)</span></a>
+                <div>
+                  <a href="#" class="mr-4"><i class="fa fa-share-alt" aria-hidden="true"></i> Partagez <span>(04)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 single_gallery_item entre wow fadeInUp" data-wow-delay="0.2s">
+          <!-- Welcome Music Area -->
+          <div class="poca-music-area style-2 d-flex align-items-center flex-wrap">
+            <div class="poca-music-thumbnail">
+              <img src="./img/core-img/all.jpg" alt="">
+            </div>
+            <div class="poca-music-content text-center">
+              <span class="music-published-date mb-2">27 Août, 2019</span>
+              <h2>Agalawal : l'humoriste fait un important don aux CHINOIS</h2>
+              <div class="music-meta-data">
+              </div>
+              <!-- Likes, Share & Download -->
+              <div class="likes-share-download d-flex align-items-center justify-content-between">
+                <a href="#"><i class="fa fa-heart" aria-hidden="true"></i> Appreciez <span>(29)</span></a>
+                <div>
+                  <a href="#" class="mr-4"><i class="fa fa-share-alt" aria-hidden="true"></i> Partagez <span>(04)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single gallery Item  entre tutor wow media wow tech tutor wow-->
+        <div class="col-12 col-md-6 single_gallery_item media wow fadeInUp" data-wow-delay="0.2s">
+          <!-- Welcome Music Area -->
+          <div class="poca-music-area style-2 d-flex align-items-center flex-wrap">
+            <div class="poca-music-thumbnail">
+              <img src="./img/core-img/2.jpg" alt="">
+            </div>
+            <div class="poca-music-content text-center">
+              <span class="music-published-date mb-2">27 Août, 2019</span>
+              <h2>OBSÈQUES Arafat : pourquoi son fils Owen, ne viendra pas</h2>
+              <div class="music-meta-data">
+              </div>
+              <!-- Likes, Share & Download -->
+              <div class="likes-share-download d-flex align-items-center justify-content-between">
+                <a href="#"><i class="fa fa-heart" aria-hidden="true"></i> Appreciez <span>(29)</span></a>
+                <div>
+                  <a href="#" class="mr-4"><i class="fa fa-share-alt" aria-hidden="true"></i> Partagez <span>(04)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 single_gallery_item entre wow fadeInUp" data-wow-delay="0.2s">
+          <!-- Welcome Music Area -->
+          <div class="poca-music-area style-2 d-flex align-items-center flex-wrap">
+            <div class="poca-music-thumbnail">
+              <img src="./img/core-img/all.jpg" alt="">
+            </div>
+            <div class="poca-music-content text-center">
+              <span class="music-published-date mb-2">27 Août, 2019</span>
+              <h2>Agalawal : l'humoriste fait un important don aux CHINOIS</h2>
+              <div class="music-meta-data">
+              </div>
+              <!-- Likes, Share & Download -->
+              <div class="likes-share-download d-flex align-items-center justify-content-between">
+                <a href="#"><i class="fa fa-heart" aria-hidden="true"></i> Appreciez <span>(29)</span></a>
+                <div>
+                  <a href="#" class="mr-4"><i class="fa fa-share-alt" aria-hidden="true"></i> Partagez <span>(04)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single gallery Item  entre tutor wow media wow tech tutor wow-->
+        <div class="col-12 col-md-6 single_gallery_item media wow fadeInUp" data-wow-delay="0.2s">
+          <!-- Welcome Music Area -->
+          <div class="poca-music-area style-2 d-flex align-items-center flex-wrap">
+            <div class="poca-music-thumbnail">
+              <img src="./img/core-img/2.jpg" alt="">
+            </div>
+            <div class="poca-music-content text-center">
+              <span class="music-published-date mb-2">27 Août, 2019</span>
+              <h2>OBSÈQUES Arafat : pourquoi son fils Owen, ne viendra pas</h2>
+              <div class="music-meta-data">
+              </div>
+              <!-- Likes, Share & Download -->
+              <div class="likes-share-download d-flex align-items-center justify-content-between">
+                <a href="#"><i class="fa fa-heart" aria-hidden="true"></i> Appreciez <span>(29)</span></a>
+                <div>
+                  <a href="#" class="mr-4"><i class="fa fa-share-alt" aria-hidden="true"></i> Partagez <span>(04)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 single_gallery_item entre wow fadeInUp" data-wow-delay="0.2s">
+          <!-- Welcome Music Area -->
+          <div class="poca-music-area style-2 d-flex align-items-center flex-wrap">
+            <div class="poca-music-thumbnail">
+              <img src="./img/core-img/all.jpg" alt="">
+            </div>
+            <div class="poca-music-content text-center">
+              <span class="music-published-date mb-2">27 Août, 2019</span>
+              <h2>Agalawal : l'humoriste fait un important don aux CHINOIS</h2>
+              <div class="music-meta-data">
+              </div>
+              <!-- Likes, Share & Download -->
+              <div class="likes-share-download d-flex align-items-center justify-content-between">
+                <a href="#"><i class="fa fa-heart" aria-hidden="true"></i> Appreciez <span>(29)</span></a>
+                <div>
+                  <a href="#" class="mr-4"><i class="fa fa-share-alt" aria-hidden="true"></i> Partagez <span>(04)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single gallery Item  entre tutor wow media wow tech tutor wow-->
+        <div class="col-12 col-md-6 single_gallery_item media wow fadeInUp" data-wow-delay="0.2s">
+          <!-- Welcome Music Area -->
+          <div class="poca-music-area style-2 d-flex align-items-center flex-wrap">
+            <div class="poca-music-thumbnail">
+              <img src="./img/core-img/2.jpg" alt="">
+            </div>
+            <div class="poca-music-content text-center">
+              <span class="music-published-date mb-2">27 Août, 2019</span>
+              <h2>OBSÈQUES Arafat : pourquoi son fils Owen, ne viendra pas</h2>
+              <div class="music-meta-data">
+              </div>
+              <!-- Likes, Share & Download -->
+              <div class="likes-share-download d-flex align-items-center justify-content-between">
+                <a href="#"><i class="fa fa-heart" aria-hidden="true"></i> Appreciez <span>(29)</span></a>
+                <div>
+                  <a href="#" class="mr-4"><i class="fa fa-share-alt" aria-hidden="true"></i> Partagez <span>(04)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 single_gallery_item entre wow fadeInUp" data-wow-delay="0.2s">
+          <!-- Welcome Music Area -->
+          <div class="poca-music-area style-2 d-flex align-items-center flex-wrap">
+            <div class="poca-music-thumbnail">
+              <img src="./img/core-img/all.jpg" alt="">
+            </div>
+            <div class="poca-music-content text-center">
+              <span class="music-published-date mb-2">27 Août, 2019</span>
+              <h2>Agalawal : l'humoriste fait un important don aux CHINOIS</h2>
+              <div class="music-meta-data">
+              </div>
+              <!-- Likes, Share & Download -->
+              <div class="likes-share-download d-flex align-items-center justify-content-between">
+                <a href="#"><i class="fa fa-heart" aria-hidden="true"></i> Appreciez <span>(29)</span></a>
+                <div>
+                  <a href="#" class="mr-4"><i class="fa fa-share-alt" aria-hidden="true"></i> Partagez <span>(04)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single gallery Item  entre tutor wow media wow tech tutor wow-->
+        <div class="col-12 col-md-6 single_gallery_item media wow fadeInUp" data-wow-delay="0.2s">
+          <!-- Welcome Music Area -->
+          <div class="poca-music-area style-2 d-flex align-items-center flex-wrap">
+            <div class="poca-music-thumbnail">
+              <img src="./img/core-img/2.jpg" alt="">
+            </div>
+            <div class="poca-music-content text-center">
+              <span class="music-published-date mb-2">27 Août, 2019</span>
+              <h2>OBSÈQUES Arafat : pourquoi son fils Owen, ne viendra pas</h2>
+              <div class="music-meta-data">
+              </div>
+              <!-- Likes, Share & Download -->
+              <div class="likes-share-download d-flex align-items-center justify-content-between">
+                <a href="#"><i class="fa fa-heart" aria-hidden="true"></i> Appreciez <span>(29)</span></a>
+                <div>
+                  <a href="#" class="mr-4"><i class="fa fa-share-alt" aria-hidden="true"></i> Partagez <span>(04)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 single_gallery_item entre wow fadeInUp" data-wow-delay="0.2s">
+          <!-- Welcome Music Area -->
+          <div class="poca-music-area style-2 d-flex align-items-center flex-wrap">
+            <div class="poca-music-thumbnail">
+              <img src="./img/core-img/all.jpg" alt="">
+            </div>
+            <div class="poca-music-content text-center">
+              <span class="music-published-date mb-2">27 Août, 2019</span>
+              <h2>Agalawal : l'humoriste fait un important don aux CHINOIS</h2>
+              <div class="music-meta-data">
+              </div>
+              <!-- Likes, Share & Download -->
+              <div class="likes-share-download d-flex align-items-center justify-content-between">
+                <a href="#"><i class="fa fa-heart" aria-hidden="true"></i> Appreciez <span>(29)</span></a>
+                <div>
+                  <a href="#" class="mr-4"><i class="fa fa-share-alt" aria-hidden="true"></i> Partagez <span>(04)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single gallery Item  entre tutor wow media wow tech tutor wow-->
+        <div class="col-12 col-md-6 single_gallery_item media wow fadeInUp" data-wow-delay="0.2s">
+          <!-- Welcome Music Area -->
+          <div class="poca-music-area style-2 d-flex align-items-center flex-wrap">
+            <div class="poca-music-thumbnail">
+              <img src="./img/core-img/2.jpg" alt="">
+            </div>
+            <div class="poca-music-content text-center">
+              <span class="music-published-date mb-2">27 Août, 2019</span>
+              <h2>OBSÈQUES Arafat : pourquoi son fils Owen, ne viendra pas</h2>
+              <div class="music-meta-data">
+              </div>
+              <!-- Likes, Share & Download -->
+              <div class="likes-share-download d-flex align-items-center justify-content-between">
+                <a href="#"><i class="fa fa-heart" aria-hidden="true"></i> Appreciez <span>(29)</span></a>
+                <div>
+                  <a href="#" class="mr-4"><i class="fa fa-share-alt" aria-hidden="true"></i> Partagez <span>(04)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 single_gallery_item entre wow fadeInUp" data-wow-delay="0.2s">
+          <!-- Welcome Music Area -->
+          <div class="poca-music-area style-2 d-flex align-items-center flex-wrap">
+            <div class="poca-music-thumbnail">
+              <img src="./img/core-img/all.jpg" alt="">
+            </div>
+            <div class="poca-music-content text-center">
+              <span class="music-published-date mb-2">27 Août, 2019</span>
+              <h2>Agalawal : l'humoriste fait un important don aux CHINOIS</h2>
+              <div class="music-meta-data">
+              </div>
+              <!-- Likes, Share & Download -->
+              <div class="likes-share-download d-flex align-items-center justify-content-between">
+                <a href="#"><i class="fa fa-heart" aria-hidden="true"></i> Appreciez <span>(29)</span></a>
+                <div>
+                  <a href="#" class="mr-4"><i class="fa fa-share-alt" aria-hidden="true"></i> Partagez <span>(04)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single gallery Item  entre tutor wow media wow tech tutor wow-->
+        <div class="col-12 col-md-6 single_gallery_item media wow fadeInUp" data-wow-delay="0.2s">
+          <!-- Welcome Music Area -->
+          <div class="poca-music-area style-2 d-flex align-items-center flex-wrap">
+            <div class="poca-music-thumbnail">
+              <img src="./img/core-img/2.jpg" alt="">
+            </div>
+            <div class="poca-music-content text-center">
+              <span class="music-published-date mb-2">27 Août, 2019</span>
+              <h2>OBSÈQUES Arafat : pourquoi son fils Owen, ne viendra pas</h2>
+              <div class="music-meta-data">
+              </div>
+              <!-- Likes, Share & Download -->
+              <div class="likes-share-download d-flex align-items-center justify-content-between">
+                <a href="#"><i class="fa fa-heart" aria-hidden="true"></i> Appreciez <span>(29)</span></a>
+                <div>
+                  <a href="#" class="mr-4"><i class="fa fa-share-alt" aria-hidden="true"></i> Partagez <span>(04)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 single_gallery_item entre wow fadeInUp" data-wow-delay="0.2s">
+          <!-- Welcome Music Area -->
+          <div class="poca-music-area style-2 d-flex align-items-center flex-wrap">
+            <div class="poca-music-thumbnail">
+              <img src="./img/core-img/all.jpg" alt="">
+            </div>
+            <div class="poca-music-content text-center">
+              <span class="music-published-date mb-2">27 Août, 2019</span>
+              <h2>Agalawal : l'humoriste fait un important don aux CHINOIS</h2>
+              <div class="music-meta-data">
+              </div>
+              <!-- Likes, Share & Download -->
+              <div class="likes-share-download d-flex align-items-center justify-content-between">
+                <a href="#"><i class="fa fa-heart" aria-hidden="true"></i> Appreciez <span>(29)</span></a>
+                <div>
+                  <a href="#" class="mr-4"><i class="fa fa-share-alt" aria-hidden="true"></i> Partagez <span>(04)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single gallery Item  entre tutor wow media wow tech tutor wow-->
+        <div class="col-12 col-md-6 single_gallery_item media wow fadeInUp" data-wow-delay="0.2s">
+          <!-- Welcome Music Area -->
+          <div class="poca-music-area style-2 d-flex align-items-center flex-wrap">
+            <div class="poca-music-thumbnail">
+              <img src="./img/core-img/2.jpg" alt="">
+            </div>
+            <div class="poca-music-content text-center">
+              <span class="music-published-date mb-2">27 Août, 2019</span>
+              <h2>OBSÈQUES Arafat : pourquoi son fils Owen, ne viendra pas</h2>
+              <div class="music-meta-data">
+              </div>
+              <!-- Likes, Share & Download -->
+              <div class="likes-share-download d-flex align-items-center justify-content-between">
+                <a href="#"><i class="fa fa-heart" aria-hidden="true"></i> Appreciez <span>(29)</span></a>
+                <div>
+                  <a href="#" class="mr-4"><i class="fa fa-share-alt" aria-hidden="true"></i> Partagez <span>(04)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <a href="#" class="btn poca-btn mt-70">Afficher plus</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ***** Latest Episodes Area End ***** -->
+
+  <!-- ***** Featured Guests Area Start ***** -->
+  <section id="Prog" class="featured-guests-area">
+    <div class="container">
+      <div class="row">
+        <!-- Section Heading -->
+        <div class="col-12">
+          <div class="section-heading text-center">
+            <h2>Notre Programme</h2>
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-around">
+        <div class="col-md-12">
+          <ul id="tabs-list">
+            <!-- MENU TOGGLE -->
+            <label id="open-nav-label" for="nav-ctrl"></label>
+            <li id="li-for-panel-1">
+              <label class="panel-label"
+                     for="panel-1-ctrl">Lundi</label>
+            </li><!--INLINE-BLOCK FIX
+ --><li id="li-for-panel-2">
+            <label class="panel-label"
+                   for="panel-2-ctrl">Mardi</label>
+          </li><!--INLINE-BLOCK FIX
+ --><li id="li-for-panel-3">
+            <label class="panel-label"
+                   for="panel-3-ctrl">Mercredi</label>
+          </li><!--INLINE-BLOCK FIX
+ --><li id="li-for-panel-4">
+            <label class="panel-label"
+                   for="panel-4-ctrl">Jeudi</label>
+          </li><!--INLINE-BLOCK FIX
+ --><li id="li-for-panel-5" class="last">
+            <label class="panel-label"
+                   for="panel-5-ctrl">Vendredi</label>
+          </li>
+            </li><!--INLINE-BLOCK FIX
+ --><li id="li-for-panel-6" class="last">
+            <label class="panel-label"
+                   for="panel-5-ctrl">Samedi</label>
+          </li>
+            </li><!--INLINE-BLOCK FIX
+ --><li id="li-for-panel-7" class="last">
+            <label class="panel-label"
+                   for="panel-5-ctrl">Dimanche</label>
+          </li>
+
+          </ul>
+        </div>
+        <section class="modem active li-for-panel-1">
+          <div class="container-fluid">
+            <div class="row example-basic">
+              <div class="col-md-12 example-title">
+                <h2>Lundi</h2>
+              </div>
+              <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+                <ul class="timeline">
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span> <i class="fa fa-clock-o"></i> 06h à 09h</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h3 class="timeline-title">Titre de L'emission</h3>
+                      <img src="img/bg-img/1.jpg" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur dolor dolorum, esse exercitationem fugiat fugit incidunt iste, molestias natus non nostrum officiis placeat repellendus temporibus! Facere hic laboriosam nesciunt?</p>
+                    </div>
+                  </li>
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span> <i class="fa fa-clock-o"></i> 06h à 09h</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h3 class="timeline-title">Titre de L'emission</h3>
+                      <img src="img/bg-img/1.jpg" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur dolor dolorum, esse exercitationem fugiat fugit incidunt iste, molestias natus non nostrum officiis placeat repellendus temporibus! Facere hic laboriosam nesciunt?</p>
+                    </div>
+                  </li>
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span> <i class="fa fa-clock-o"></i> 06h à 09h</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h3 class="timeline-title">Titre de L'emission</h3>
+                      <img src="img/bg-img/1.jpg" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur dolor dolorum, esse exercitationem fugiat fugit incidunt iste, molestias natus non nostrum officiis placeat repellendus temporibus! Facere hic laboriosam nesciunt?</p>
+                    </div>
+                  </li>
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span> <i class="fa fa-clock-o"></i> 06h à 09h</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h3 class="timeline-title">Titre de L'emission</h3>
+                      <img src="img/bg-img/1.jpg" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur dolor dolorum, esse exercitationem fugiat fugit incidunt iste, molestias natus non nostrum officiis placeat repellendus temporibus! Facere hic laboriosam nesciunt?</p>
+                    </div>
+                  </li>
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span> <i class="fa fa-clock-o"></i> 06h à 09h</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h3 class="timeline-title">Titre de L'emission</h3>
+                      <img src="img/bg-img/1.jpg" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur dolor dolorum, esse exercitationem fugiat fugit incidunt iste, molestias natus non nostrum officiis placeat repellendus temporibus! Facere hic laboriosam nesciunt?</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="modem li-for-panel-2">
+          <div class="container-fluid">
+            <div class="row example-basic">
+              <div class="col-md-12 example-title">
+                <h2>Mardi</h2>
+              </div>
+              <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+                <ul class="timeline">
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span> <i class="fa fa-clock-o"></i> 06h à 10h</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h3 class="timeline-title">Titre de L'emission</h3>
+                      <img src="img/bg-img/1.jpg" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur dolor dolorum, esse exercitationem fugiat fugit incidunt iste, molestias natus non nostrum officiis placeat repellendus temporibus! Facere hic laboriosam nesciunt?</p>
+                    </div>
+                  </li>
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span> <i class="fa fa-clock-o"></i> 06h à 09h</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h3 class="timeline-title">Titre de L'emission</h3>
+                      <img src="img/bg-img/1.jpg" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur dolor dolorum, esse exercitationem fugiat fugit incidunt iste, molestias natus non nostrum officiis placeat repellendus temporibus! Facere hic laboriosam nesciunt?</p>
+                    </div>
+                  </li>
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span> <i class="fa fa-clock-o"></i> 06h à 09h</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h3 class="timeline-title">Titre de L'emission</h3>
+                      <img src="img/bg-img/1.jpg" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur dolor dolorum, esse exercitationem fugiat fugit incidunt iste, molestias natus non nostrum officiis placeat repellendus temporibus! Facere hic laboriosam nesciunt?</p>
+                    </div>
+                  </li>
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span> <i class="fa fa-clock-o"></i> 06h à 09h</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h3 class="timeline-title">Titre de L'emission</h3>
+                      <img src="img/bg-img/1.jpg" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur dolor dolorum, esse exercitationem fugiat fugit incidunt iste, molestias natus non nostrum officiis placeat repellendus temporibus! Facere hic laboriosam nesciunt?</p>
+                    </div>
+                  </li>
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span> <i class="fa fa-clock-o"></i> 06h à 09h</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h3 class="timeline-title">Titre de L'emission</h3>
+                      <img src="img/bg-img/1.jpg" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur dolor dolorum, esse exercitationem fugiat fugit incidunt iste, molestias natus non nostrum officiis placeat repellendus temporibus! Facere hic laboriosam nesciunt?</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="modem li-for-panel-3">
+          <div class="container-fluid">
+            <div class="row example-basic">
+              <div class="col-md-12 example-title">
+                <h2>Mercredi</h2>
+              </div>
+              <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+                <ul class="timeline">
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span> <i class="fa fa-clock-o"></i> 08h à 10h</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h3 class="timeline-title">Titre de L'emission</h3>
+                      <img src="img/bg-img/1.jpg" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur dolor dolorum, esse exercitationem fugiat fugit incidunt iste, molestias natus non nostrum officiis placeat repellendus temporibus! Facere hic laboriosam nesciunt?</p>
+                    </div>
+                  </li>
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span> <i class="fa fa-clock-o"></i> 06h à 09h</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h3 class="timeline-title">Titre de L'emission</h3>
+                      <img src="img/bg-img/1.jpg" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur dolor dolorum, esse exercitationem fugiat fugit incidunt iste, molestias natus non nostrum officiis placeat repellendus temporibus! Facere hic laboriosam nesciunt?</p>
+                    </div>
+                  </li>
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span> <i class="fa fa-clock-o"></i> 06h à 09h</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h3 class="timeline-title">Titre de L'emission</h3>
+                      <img src="img/bg-img/1.jpg" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur dolor dolorum, esse exercitationem fugiat fugit incidunt iste, molestias natus non nostrum officiis placeat repellendus temporibus! Facere hic laboriosam nesciunt?</p>
+                    </div>
+                  </li>
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span> <i class="fa fa-clock-o"></i> 06h à 09h</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h3 class="timeline-title">Titre de L'emission</h3>
+                      <img src="img/bg-img/1.jpg" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur dolor dolorum, esse exercitationem fugiat fugit incidunt iste, molestias natus non nostrum officiis placeat repellendus temporibus! Facere hic laboriosam nesciunt?</p>
+                    </div>
+                  </li>
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span> <i class="fa fa-clock-o"></i> 06h à 09h</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h3 class="timeline-title">Titre de L'emission</h3>
+                      <img src="img/bg-img/1.jpg" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur dolor dolorum, esse exercitationem fugiat fugit incidunt iste, molestias natus non nostrum officiis placeat repellendus temporibus! Facere hic laboriosam nesciunt?</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="modem li-for-panel-4">
+          <div class="container-fluid">
+            <div class="row example-basic">
+              <div class="col-md-12 example-title">
+                <h2>Jeudi</h2>
+              </div>
+              <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+                <ul class="timeline">
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span> <i class="fa fa-clock-o"></i> 09h à 10h</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h3 class="timeline-title">Titre de L'emission</h3>
+                      <img src="img/bg-img/1.jpg" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur dolor dolorum, esse exercitationem fugiat fugit incidunt iste, molestias natus non nostrum officiis placeat repellendus temporibus! Facere hic laboriosam nesciunt?</p>
+                    </div>
+                  </li>
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span> <i class="fa fa-clock-o"></i> 06h à 09h</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h3 class="timeline-title">Titre de L'emission</h3>
+                      <img src="img/bg-img/1.jpg" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur dolor dolorum, esse exercitationem fugiat fugit incidunt iste, molestias natus non nostrum officiis placeat repellendus temporibus! Facere hic laboriosam nesciunt?</p>
+                    </div>
+                  </li>
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span> <i class="fa fa-clock-o"></i> 06h à 09h</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h3 class="timeline-title">Titre de L'emission</h3>
+                      <img src="img/bg-img/1.jpg" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur dolor dolorum, esse exercitationem fugiat fugit incidunt iste, molestias natus non nostrum officiis placeat repellendus temporibus! Facere hic laboriosam nesciunt?</p>
+                    </div>
+                  </li>
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span> <i class="fa fa-clock-o"></i> 06h à 09h</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h3 class="timeline-title">Titre de L'emission</h3>
+                      <img src="img/bg-img/1.jpg" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur dolor dolorum, esse exercitationem fugiat fugit incidunt iste, molestias natus non nostrum officiis placeat repellendus temporibus! Facere hic laboriosam nesciunt?</p>
+                    </div>
+                  </li>
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span> <i class="fa fa-clock-o"></i> 06h à 09h</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h3 class="timeline-title">Titre de L'emission</h3>
+                      <img src="img/bg-img/1.jpg" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur dolor dolorum, esse exercitationem fugiat fugit incidunt iste, molestias natus non nostrum officiis placeat repellendus temporibus! Facere hic laboriosam nesciunt?</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="modem li-for-panel-5">
+          <div class="container-fluid">
+            <div class="row example-basic">
+              <div class="col-md-12 example-title">
+                <h2>Vendredi</h2>
+              </div>
+              <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+                <ul class="timeline">
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span> <i class="fa fa-clock-o"></i> 06h à 10h</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h3 class="timeline-title">Titre de L'emission</h3>
+                      <img src="img/bg-img/1.jpg" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur dolor dolorum, esse exercitationem fugiat fugit incidunt iste, molestias natus non nostrum officiis placeat repellendus temporibus! Facere hic laboriosam nesciunt?</p>
+                    </div>
+                  </li>
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span> <i class="fa fa-clock-o"></i> 06h à 09h</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h3 class="timeline-title">Titre de L'emission</h3>
+                      <img src="img/bg-img/1.jpg" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur dolor dolorum, esse exercitationem fugiat fugit incidunt iste, molestias natus non nostrum officiis placeat repellendus temporibus! Facere hic laboriosam nesciunt?</p>
+                    </div>
+                  </li>
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span> <i class="fa fa-clock-o"></i> 06h à 09h</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h3 class="timeline-title">Titre de L'emission</h3>
+                      <img src="img/bg-img/1.jpg" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur dolor dolorum, esse exercitationem fugiat fugit incidunt iste, molestias natus non nostrum officiis placeat repellendus temporibus! Facere hic laboriosam nesciunt?</p>
+                    </div>
+                  </li>
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span> <i class="fa fa-clock-o"></i> 06h à 09h</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h3 class="timeline-title">Titre de L'emission</h3>
+                      <img src="img/bg-img/1.jpg" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur dolor dolorum, esse exercitationem fugiat fugit incidunt iste, molestias natus non nostrum officiis placeat repellendus temporibus! Facere hic laboriosam nesciunt?</p>
+                    </div>
+                  </li>
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span> <i class="fa fa-clock-o"></i> 06h à 09h</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h3 class="timeline-title">Titre de L'emission</h3>
+                      <img src="img/bg-img/1.jpg" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur dolor dolorum, esse exercitationem fugiat fugit incidunt iste, molestias natus non nostrum officiis placeat repellendus temporibus! Facere hic laboriosam nesciunt?</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="modem li-for-panel-6">
+          <div class="container-fluid">
+            <div class="row example-basic">
+              <div class="col-md-12 example-title">
+                <h2>Samedi</h2>
+              </div>
+              <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+                <ul class="timeline">
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span> <i class="fa fa-clock-o"></i> 06h à 09h</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h3 class="timeline-title">Titre de L'emission</h3>
+                      <img src="img/bg-img/1.jpg" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur dolor dolorum, esse exercitationem fugiat fugit incidunt iste, molestias natus non nostrum officiis placeat repellendus temporibus! Facere hic laboriosam nesciunt?</p>
+                    </div>
+                  </li>
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span> <i class="fa fa-clock-o"></i> 06h à 09h</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h3 class="timeline-title">Titre de L'emission</h3>
+                      <img src="img/bg-img/1.jpg" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur dolor dolorum, esse exercitationem fugiat fugit incidunt iste, molestias natus non nostrum officiis placeat repellendus temporibus! Facere hic laboriosam nesciunt?</p>
+                    </div>
+                  </li>
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span> <i class="fa fa-clock-o"></i> 06h à 09h</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h3 class="timeline-title">Titre de L'emission</h3>
+                      <img src="img/bg-img/1.jpg" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur dolor dolorum, esse exercitationem fugiat fugit incidunt iste, molestias natus non nostrum officiis placeat repellendus temporibus! Facere hic laboriosam nesciunt?</p>
+                    </div>
+                  </li>
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span> <i class="fa fa-clock-o"></i> 06h à 09h</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h3 class="timeline-title">Titre de L'emission</h3>
+                      <img src="img/bg-img/1.jpg" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur dolor dolorum, esse exercitationem fugiat fugit incidunt iste, molestias natus non nostrum officiis placeat repellendus temporibus! Facere hic laboriosam nesciunt?</p>
+                    </div>
+                  </li>
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span> <i class="fa fa-clock-o"></i> 06h à 09h</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h3 class="timeline-title">Titre de L'emission</h3>
+                      <img src="img/bg-img/1.jpg" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur dolor dolorum, esse exercitationem fugiat fugit incidunt iste, molestias natus non nostrum officiis placeat repellendus temporibus! Facere hic laboriosam nesciunt?</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="modem li-for-panel-7">
+          <div class="container-fluid">
+            <div class="row example-basic">
+              <div class="col-md-12 example-title">
+                <h2>Dimanche</h2>
+              </div>
+              <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+                <ul class="timeline">
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span> <i class="fa fa-clock-o"></i> 06h à 10h</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h3 class="timeline-title">Titre de L'emission</h3>
+                      <img src="img/bg-img/1.jpg" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur dolor dolorum, esse exercitationem fugiat fugit incidunt iste, molestias natus non nostrum officiis placeat repellendus temporibus! Facere hic laboriosam nesciunt?</p>
+                    </div>
+                  </li>
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span> <i class="fa fa-clock-o"></i> 06h à 09h</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h3 class="timeline-title">Titre de L'emission</h3>
+                      <img src="img/bg-img/1.jpg" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur dolor dolorum, esse exercitationem fugiat fugit incidunt iste, molestias natus non nostrum officiis placeat repellendus temporibus! Facere hic laboriosam nesciunt?</p>
+                    </div>
+                  </li>
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span> <i class="fa fa-clock-o"></i> 06h à 09h</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h3 class="timeline-title">Titre de L'emission</h3>
+                      <img src="img/bg-img/1.jpg" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur dolor dolorum, esse exercitationem fugiat fugit incidunt iste, molestias natus non nostrum officiis placeat repellendus temporibus! Facere hic laboriosam nesciunt?</p>
+                    </div>
+                  </li>
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span> <i class="fa fa-clock-o"></i> 06h à 09h</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h3 class="timeline-title">Titre de L'emission</h3>
+                      <img src="img/bg-img/1.jpg" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur dolor dolorum, esse exercitationem fugiat fugit incidunt iste, molestias natus non nostrum officiis placeat repellendus temporibus! Facere hic laboriosam nesciunt?</p>
+                    </div>
+                  </li>
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span> <i class="fa fa-clock-o"></i> 06h à 09h</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h3 class="timeline-title">Titre de L'emission</h3>
+                      <img src="img/bg-img/1.jpg" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur dolor dolorum, esse exercitationem fugiat fugit incidunt iste, molestias natus non nostrum officiis placeat repellendus temporibus! Facere hic laboriosam nesciunt?</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+  <!-- ***** Featured Guests Area End ***** -->
+
+  <section id="Equip" class="featured-guests-area">
+    <div class="container">
+      <div class="row">
+        <!-- Section Heading -->
+        <div class="col-12">
+          <div class="section-heading text-center">
+            <h2>Notre Equipe</h2>
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-around">
+        <!-- Single Featured Guest -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="single-featured-guest mb-80">
+            <img src="img/core-img/23.jpg" alt="">
+            <div class="guest-info">
+              <h5>Coré Irié</h5>
+              <span>Directeur Générale</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single Featured Guest -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="single-featured-guest mb-80">
+            <img src="img/core-img/20.jpg" alt="">
+            <div class="guest-info">
+              <h5>Wilfried Fréderick</h5>
+              <span>Intervenant</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single Featured Guest -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="single-featured-guest mb-80">
+            <img src="img/core-img/22.jpg" alt="">
+            <div class="guest-info">
+              <h5>Forman Diallo</h5>
+              <span>Directeur technique</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Newsletter Area Start ***** -->
+  <section id="Contact" class="poca-newsletter-area bg-img bg-overlay pt-50 jarallax" style="background-image: url(img/bg-img/3.jpg);">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-lg-6">
+          <div class="newsletter-content mb-50">
+            <h2>Souscrire à notre Newsletter</h2>
+            <h6>Ne manquez plus rien à nos différentes News et Emissions</h6>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="newsletter-form mb-50">
+            <form action="#" method="post">
+              <input type="email" name="nl-email" class="form-control" placeholder="Votre Email">
+              <button type="submit" class="btn">Enregistrer</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ***** Newsletter Area End ***** -->
+
+  <!-- ***** Footer Area Start ***** -->
+  <footer class="footer-area section-padding-80-0">
+    <div class="container">
+      <div class="row">
+
+        <!-- Single Footer Widget -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="single-footer-widget mb-80">
+            <!-- Widget Title -->
+            <h4 class="widget-title">Qui sommes nous</h4>
+
+            <!--<p>It is a long established fact that a reader will be distracted by the readable content.</p>-->
+            <div class="copywrite-content">
+              <p>&copy; 
+
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> Tout droit reservé | <i class="fa fa-heart-o" aria-hidden="true"></i> par <a href="https://nan.ci" target="_blank">NaN</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="single-footer-widget mb-80">
+            <!-- Widget Title -->
+            <h4 class="widget-title">Suivez-nous sur :</h4>
+            <!-- Social Info -->
+            <div class="footer-social-info">
+              <a href="#" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="pinterest" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a>
+              <a href="#" class="instagram" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="youtube" data-toggle="tooltip" data-placement="top" title="YouTube"><i class="fa fa-youtube-play"></i></a>
+            </div>
+            <!--<div class="app-download-button mt-30">
+              <a href="#"><img src="./img/core-img/app-store.png" alt=""></a>
+              <a href="#"><img src="./img/core-img/google-play.png" alt=""></a>
+            </div>-->
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <!-- ***** Footer Area End ***** -->
+
+  <!-- ******* All JS ******* -->
+  <!-- jQuery js -->
+  <script src="js/jquery.min.js"></script>
+  <!-- Popper js -->
+  <script src="js/popper.min.js"></script>
+  <!-- Bootstrap js -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- All js -->
+  <script src="js/poca.bundle.js"></script>
+  <!-- Active js -->
+  <script src="js/default-assets/active.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.panel-label').on('click', function () {
+        var meta = $(this).parent().attr('id');
+        meta = "."+meta;
+        $('.modem').removeClass('active');
+        $(meta).addClass('active');
+      })
+      $(window).scroll(function () {
+        console.log($(window).scrollTop())
+        if($(window).scrollTop()>= 949 && $(window).scrollTop()<5038){
+          $('#nav').find('li').removeClass('current-item');
+          $('.Actu').addClass('current-item');
+        }
+        else if($(window).scrollTop()>=5038 && $(window).scrollTop()<8640){
+          $('#nav').find('li').removeClass('current-item');
+          $('.Prog').addClass('current-item');
+        }
+        else if($(window).scrollTop()>=8640 && $(window).scrollTop()<9000){
+          $('#nav').find('li').removeClass('current-item');
+          $('.Equip').addClass('current-item');
+        }
+        else if($(window).scrollTop()>=9000){
+          $('#nav').find('li').removeClass('current-item');
+          $('.Cont').addClass('current-item');
+
+        }
+        else{
+          $('#nav').find('li').removeClass('current-item');
+          $('.Accueil').addClass('current-item');
+        }
+      })
+            }
+    )
+  </script>
+
+</body>
+
+</html>
