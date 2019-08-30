@@ -729,6 +729,11 @@
     375px
 ------------------------------*/
 @media (min-width:320px) and (max-width:479px) {
+    #blockus{
+        background: url("../images/bgP.jpg") no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
     #app-cover{
         top: 160%;
         margin: 0 auto;
