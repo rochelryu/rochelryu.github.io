@@ -3,7 +3,15 @@
     "use strict"; //use of strict
 
     $(document).on('ready', function () {
-
+        $('.Inteur').click(function () {
+            /*afficheTchat(){
+              if(tchatBeg === 0){
+                tchatBeg++
+                $(this).find('img').attr('src', 'unknow');*/
+            $(this).parent().find('.messageText').fadeToggle();
+            //this.rootNode.children[0].src = error;
+            //this.rootNode.parentElement.children[1].style.display = "block";
+        });
         /*=============================
                Revolution Slider
          ============================*/
