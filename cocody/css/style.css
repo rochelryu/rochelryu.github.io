@@ -4309,7 +4309,9 @@ a:hover {
     transition: 0.3s ease top;
     z-index: 1;
 }
-
+#play-pause-button span{
+    color : #ff6b1e;
+}
 #player-track.active
 {
     top: -91px;
@@ -4557,12 +4559,13 @@ a:hover {
 
 .button
 {
-    width: 26px;
+    width: 130px;
     height: 26px;
-    padding: 25px;
+    margin-top: 10px;
     background: none !important;
-    border-radius: 6px;
     cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .button i

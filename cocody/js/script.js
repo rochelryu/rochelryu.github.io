@@ -11,6 +11,7 @@ $(function()
                 playerTrack.addClass('active');
                 albumArt.addClass('active');
                 checkBuffering();
+                $('#play-pause-button').find('span').html('stopper')
                 i.attr('class','fa fa-pause');
                 audio.play();
             }
@@ -20,6 +21,7 @@ $(function()
                 albumArt.removeClass('active');
                 clearInterval(buffInterval);
                 albumArt.removeClass('buffering');
+                $('#play-pause-button').find('span').html('écouter');
                 i.attr('class','fa fa-play');
                 audio.pause();
             }
