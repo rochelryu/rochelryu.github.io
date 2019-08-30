@@ -4255,7 +4255,7 @@ a:hover {
     position: absolute;
     top: 150%;
     right: 0;
-    left: 0;
+    left: 2%;
     width: 370px;
     height: 110px;
 }
@@ -4327,7 +4327,7 @@ a:hover {
     box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.15);
     background-color: #fff;
     padding: 0px !important;
-    margin: 10px;
+    margin: 10px 40px;
     min-height: 100vh;
 }
 #second .contenu:last-child{
@@ -5144,6 +5144,7 @@ source{
     overflow: auto;
 }
 .team-info p{
+    color: #555;
     margin-bottom: .1em;
 }
 .team-info {
@@ -5161,7 +5162,7 @@ source{
     content: '';
     position: absolute;
     left: -13px;
-    bottom: 15%;
+    top: 15%;
     border-left: 10px solid rgba(0, 0, 0, 0);
     border-right: 10px solid rgba(0, 0, 0, 0);
     border-bottom: 10px solid #fff;
@@ -5376,4 +5377,7 @@ source{
         height: 200%;
         opacity: 0;
     }
+}
+.timesTchat small{
+    color: #0b0b0b;
 }
