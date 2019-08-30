@@ -108,7 +108,7 @@
     }
 }
 
-@media (min-width:320px) and (max-width:1199px) {
+@media (min-width:320px) and (max-width:759px) {
     /*=== header-area===*/
     .header-area .header-top .ostion-top-wrap .ostion-logo,
     .header-area .header-top .ostion-top-wrap .ostion-logo a,
@@ -188,9 +188,9 @@
     991px tablet device
 ------------------------------*/
 @media (max-width:991px) {
-    .header-area .header-info {
+    /*.header-area .header-info {
         display: none;
-    }
+    }*/
     .breadcrumb-area .breadcrumb-content {
         padding-top: 0;
         min-height: 270px;
