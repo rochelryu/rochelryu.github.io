@@ -729,7 +729,15 @@
     375px
 ------------------------------*/
 @media (min-width:320px) and (max-width:479px) {
-
+    #app-cover{
+        top: 160%;
+        margin: 0 auto;
+        width: 350px;
+        height: 110px;
+    }
+    .header-area .header-info .header-info-inner{
+        display: none;
+    }
 }
 
 
