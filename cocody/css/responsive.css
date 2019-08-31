@@ -131,6 +131,12 @@
     .header-area .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content {
         display: none;
     }
+    .small-Device{
+        display: block;
+    }
+    #desktop{
+        display: none;
+    }
     .header-area .header-top .ostion-top-wrap .ostion-menu .mobile-menu-toggle {
         display: block;
         top: 50%;

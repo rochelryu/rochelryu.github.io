@@ -174,7 +174,6 @@ a:hover {
 .blockPerso li{
     transition: all .5s !important;
     height: 40px;
-    width: 94%;
     border: none;
     display: flex !important;
     align-items: center;
@@ -298,8 +297,8 @@ a:hover {
 }
 .search-form-wrapper .search-submit{
     position: absolute;
-    top: 8px;
-    right: -10px;
+    top: 0px;
+    right: 30px;
     border: none;
     background-color: transparent;
     color: #686868;
@@ -373,7 +372,7 @@ a:hover {
     font-size: 14px;
     font-weight: 600;
     display: block;
-    margin:  10px 0px;
+    margin:  0px 35px;
     text-align: center;
     padding-bottom: 17px;
     -webkit-transition: 0.3s ease;
@@ -5439,7 +5438,7 @@ ol::after {
 }
 
 /* ---- Timeline elements ---- */
-li {
+ol li {
     position: relative;
     display: inline-block;
     float: left;
@@ -5447,13 +5446,13 @@ li {
     font: bold 14px arial;
     height: 50px;
 }
-li .diplome {
+ol li .diplome {
     position: absolute;
     top: -47px;
     left: 36%;
     color: #000000;
 }
-li .point {
+ol li .point {
     content: "";
     top: -4px;
     left: 43%;
@@ -5465,7 +5464,7 @@ li .point {
     background: #fff;
     position: absolute;
 }
-li .description {
+ol li .description {
     display: none;
     background-color: #f4f4f4;
     padding: 10px;
@@ -5476,7 +5475,7 @@ li .description {
     color:#333;
     text-align: center;
 }
-.description::before {
+ol .description::before {
     content: '';
     width: 0;
     height: 0;
@@ -5489,10 +5488,13 @@ li .description {
 }
 
 /* ---- Hover effects ---- */
-li:hover {
+ol li:hover {
     cursor: pointer;
     color: #ff9800;
 }
-li:hover .description {
+ol li:hover .description {
     display: block;
+}
+.small-Device{
+    display: none;
 }
