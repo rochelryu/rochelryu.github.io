@@ -5508,8 +5508,11 @@ Le FOOTER
 */
 
 footer{
-margin: 20px auto 0px;
+    margin-top: 10px;
+padding: 20px 0px;
+background-color: #000;
 }
+
 footer .socialNetwork{
     margin-top: 15px;
     display:flex;
@@ -5541,7 +5544,12 @@ footer .socialNetwork li{
     background-color:#318bff;
     box-shadow: 3px 10px 40px #318bffbd;
 }
-
+footer h3{
+    color:#fff;
+}
+footer li{
+    color:#bbb;
+}
 footer .store li{
     display:inline-block;
     margin:10px;
