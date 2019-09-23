@@ -36,8 +36,8 @@ a:hover {
 /*=============================
     general-style
  =============================*/
-/*=== ostion-btn ===*/
-.ostion-btn {
+/*=== ryu-btn ===*/
+.ryu-btn {
     display: inline-block;
     padding: 22px 40px 22px 40px;
     -webkit-border-radius: 2px;
@@ -63,23 +63,23 @@ a:hover {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.ostion-btn:hover {
+.ryu-btn:hover {
     background-color: #222;
     color: #fff;
 }
-/*=== ostion-heading ====*/
-.ostion-heading .ostion__title {
+/*=== ryu-heading ====*/
+.ryu-heading .ryu__title {
     font-size: 40px;
     line-height: 50px;
     font-weight: 700;
     letter-spacing: 1px;
 }
-.ostion-heading .ostion__desc {
+.ryu-heading .ryu__desc {
     font-size: 18px;
     font-weight: 400;
     line-height: 34px;
 }
-.ostion-heading .ostion__meta {
+.ryu-heading .ryu__meta {
     color: #FF9800;
     font-size: 16px;
     text-transform: uppercase;
@@ -87,9 +87,9 @@ a:hover {
     margin-bottom: 5px;
     letter-spacing: 1px;
 }
-/*=== ostion__title-white ====*/
-.ostion-heading .ostion__title-white,
-.ostion-heading .ostion__desc-white {
+/*=== ryu__title-white ====*/
+.ryu-heading .ryu__title-white,
+.ryu-heading .ryu__desc-white {
     color: #fff;
 }
 /*=== section-divider ===*/
@@ -149,18 +149,18 @@ a:hover {
 .header-area .header-top {
     background-color: #fff;
 }
-.header-area .header-top .ostion-top-wrap {
+.header-area .header-top .ryu-top-wrap {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-align: center;
     align-items: center;
 }
-.header-area .header-top .ostion-top-wrap .ostion-logo {
+.header-area .header-top .ryu-top-wrap .ryu-logo {
     display: table;
     vertical-align: middle;
 }
-.header-area .header-top .ostion-top-wrap .ostion-logo a {
+.header-area .header-top .ryu-top-wrap .ryu-logo a {
     display: table-cell;
     vertical-align: middle;
     color: #000;
@@ -189,7 +189,7 @@ a:hover {
     transition: all .5s !important;
     box-shadow: 0 20px 40px rgba(255, 152, 0, 0.51);
 }
-.header-area .header-top .ostion-top-wrap .ostion-logo a span {
+.header-area .header-top .ryu-top-wrap .ryu-logo a span {
     color: #ff9800;
     font-size: xx-large;
     -webkit-transform: rotate(45deg);
@@ -197,10 +197,10 @@ a:hover {
 .m-c-10{
     margin: 0 80px;
 }
-.header-area .header-top .ostion-top-wrap .ostion-menu {
+.header-area .header-top .ryu-top-wrap .ryu-menu {
     position: relative;
 }
-.header-area .header-top .ostion-top-wrap .ostion-menu .mobile-menu-toggle {
+.header-area .header-top .ryu-top-wrap .ryu-menu .mobile-menu-toggle {
     position: absolute;
     right: -55px;
     top: 0;
@@ -223,11 +223,11 @@ a:hover {
     -o-transition: 0.3s ease;
     transition: 0.3s ease;
 }
-.header-area .header-top .ostion-top-wrap .ostion-menu .mobile-menu-toggle:hover {
+.header-area .header-top .ryu-top-wrap .ryu-menu .mobile-menu-toggle:hover {
     background-color: #ff7607;
     color: #fff;
 }
-.header-area .header-top .ostion-top-wrap .ostion-menu .ostion-top-content {
+.header-area .header-top .ryu-top-wrap .ryu-menu .ryu-top-content {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -240,39 +240,39 @@ a:hover {
     line-height: 51px;
     border-bottom: 1px solid #ededed;
 }
-.header-area .header-top .ostion-top-wrap .ostion-menu .ostion-top-content .info-box {
+.header-area .header-top .ryu-top-wrap .ryu-menu .ryu-top-content .info-box {
     flex: 1;
 }
-.header-area .header-top .ostion-top-wrap .ostion-menu .ostion-top-content .info-box:first-child {
+.header-area .header-top .ryu-top-wrap .ryu-menu .ryu-top-content .info-box:first-child {
     padding-right: 150px;
     border-right: 1px solid #ececec;
 }
-.header-area .header-top .ostion-top-wrap .ostion-menu .ostion-top-content .info-box:nth-child(2) {
+.header-area .header-top .ryu-top-wrap .ryu-menu .ryu-top-content .info-box:nth-child(2) {
    text-align: center;
 }
-.header-area .header-top .ostion-top-wrap .ostion-menu .ostion-top-content .info-box:nth-child(3) {
+.header-area .header-top .ryu-top-wrap .ryu-menu .ryu-top-content .info-box:nth-child(3) {
     border-left: 1px solid #ececec;
 }
-.header-area .header-top .ostion-top-wrap .ostion-menu .ostion-top-content .info-box .info-small-text {
+.header-area .header-top .ryu-top-wrap .ryu-menu .ryu-top-content .info-box .info-small-text {
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
 }
-.header-area .header-top .ostion-top-wrap .ostion-menu .ostion-top-content .info-box .info-small-text a {
+.header-area .header-top .ryu-top-wrap .ryu-menu .ryu-top-content .info-box .info-small-text a {
     color: #FF9800;
 }
-.header-area .header-top .ostion-top-wrap .ostion-menu .ostion-top-content .info-box .info-small-text a:hover {
+.header-area .header-top .ryu-top-wrap .ryu-menu .ryu-top-content .info-box .info-small-text a:hover {
     color: #ff7607;
 }
-.header-area .header-top .ostion-top-wrap .ostion-menu .ostion-top-content .info-box .ostion-lang-links ul li {
+.header-area .header-top .ryu-top-wrap .ryu-menu .ryu-top-content .info-box .ryu-lang-links ul li {
     display: inline-block;
     margin: 0 10px;
     text-transform: uppercase;
 }
-.header-area .header-top .ostion-top-wrap .ostion-menu .ostion-top-content .info-box .ostion-lang-links ul li a {
+.header-area .header-top .ryu-top-wrap .ryu-menu .ryu-top-content .info-box .ryu-lang-links ul li a {
     color: #686868;
 }
-.header-area .header-top .ostion-top-wrap .ostion-menu .ostion-top-content .info-box .ostion-lang-links ul li a:hover {
+.header-area .header-top .ryu-top-wrap .ryu-menu .ryu-top-content .info-box .ryu-lang-links ul li a:hover {
     color: #FF9800;
 }
 .search-form button{
@@ -305,7 +305,7 @@ a:hover {
     font-size: 14px;
 }
 /*==== main-navigation =====*/
-.header-area .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content {
+.header-area .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content {
     position: relative;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -315,21 +315,21 @@ a:hover {
     -ms-flex-pack: end;
     justify-content: flex-end;
 }
-.header-area .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .main-navigation {
+.header-area .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content .navigation-top .main-navigation {
     flex: 1;
     float: left;
 }
-.header-area .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .main-navigation ul li {
+.header-area .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content .navigation-top .main-navigation ul li {
     display: inline-block;
     position: relative;
 }
-.header-area .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .main-navigation ul li:hover .dropdown-menu-item {
+.header-area .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content .navigation-top .main-navigation ul li:hover .dropdown-menu-item {
     opacity: 1;
     visibility: visible;
     top: 100%;
 }
 /*=== dropdown menu ===*/
-.header-area .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .main-navigation ul li .dropdown-menu-item {
+.header-area .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content .navigation-top .main-navigation ul li .dropdown-menu-item {
     position: absolute;
     left: 0;
     top: 120%;
@@ -350,23 +350,23 @@ a:hover {
     -o-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
 }
-.header-area .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .main-navigation ul li .dropdown-menu-item li{
+.header-area .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content .navigation-top .main-navigation ul li .dropdown-menu-item li{
     padding-bottom: 22px;
     display: block;
 }
-.header-area .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .main-navigation ul li .dropdown-menu-item li:first-child {
+.header-area .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content .navigation-top .main-navigation ul li .dropdown-menu-item li:first-child {
     padding-top: 22px;
 }
-.header-area .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .main-navigation ul li .dropdown-menu-item li a{
+.header-area .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content .navigation-top .main-navigation ul li .dropdown-menu-item li a{
     padding: 0 30px;
     margin: 0;
     line-height: 16px;
 }
-.header-area .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .main-navigation ul li.active> a {
+.header-area .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content .navigation-top .main-navigation ul li.active> a {
     color: #FF9800;
     margin-left: 0;
 }
-.header-area .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .main-navigation ul li a {
+.header-area .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content .navigation-top .main-navigation ul li a {
     color: #232323;
     text-transform: uppercase;
     font-size: 14px;
@@ -381,31 +381,31 @@ a:hover {
     -o-transition: 0.3s ease;
     transition: 0.3s ease;
 }
-.header-area .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .main-navigation ul li a:hover {
+.header-area .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content .navigation-top .main-navigation ul li a:hover {
     color: #FF9800;
 }
-.header-area .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .header-social {
+.header-area .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content .navigation-top .header-social {
     flex: 1;
     float: right;
     font-size: 16px;
 }
-.header-area .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .header-social ul li{
+.header-area .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content .navigation-top .header-social ul li{
     margin-right: 28px;
     display: inline-block;
 }
-.header-area .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .header-social ul li:last-child {
+.header-area .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content .navigation-top .header-social ul li:last-child {
     margin-right: 0;
 }
-.header-area .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .header-social ul li a i.fa-facebook {
+.header-area .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content .navigation-top .header-social ul li a i.fa-facebook {
     color: #182eb2;
 }
-.header-area .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .header-social ul li a i.fa-twitter {
+.header-area .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content .navigation-top .header-social ul li a i.fa-twitter {
     color: #31a5ff;
 }
-.header-area .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .header-social ul li a i.fa-youtube-play {
+.header-area .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content .navigation-top .header-social ul li a i.fa-youtube-play {
     color: #ff2e2e;
 }
-.header-area .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .header-social ul li a i.fa-google-plus {
+.header-area .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content .navigation-top .header-social ul li a i.fa-google-plus {
     color: #232323;
 }
 
@@ -717,44 +717,44 @@ a:hover {
     padding-right: 80px;
     padding-left: 80px;
 }
-.header-area2 .header-top .ostion-top-wrap .ostion-logo {
+.header-area2 .header-top .ryu-top-wrap .ryu-logo {
     height: auto;
     display: block;
     padding-top: 15px;
 }
-.header-area2 .header-top .ostion-top-wrap .ostion-logo a {
+.header-area2 .header-top .ryu-top-wrap .ryu-logo a {
     height: auto;
     display: block;
 }
-.header-area2 .header-top .ostion-top-wrap .ostion-menu {
+.header-area2 .header-top .ryu-top-wrap .ryu-menu {
     height: auto;
 }
-.header-area2 .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content {
+.header-area2 .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content {
     padding-top: 34px;
     display: block;
 }
-.header-area2 .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .main-navigation {
+.header-area2 .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content .navigation-top .main-navigation {
     display: inline-block;
     float: none;
     padding-left: 95px;
 }
-.header-area2 .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .main-navigation>ul>li>a {
+.header-area2 .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content .navigation-top .main-navigation>ul>li>a {
     color: #fff;
 }
-.header-area2 .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .main-navigation ul li a:hover,
-.header-area2 .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .header-social ul li a i.fa-facebook:hover,
-.header-area2 .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .header-social ul li a i.fa-twitter:hover,
-.header-area2 .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .header-social ul li a i.fa-youtube-play:hover,
-.header-area2 .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .header-social ul li a i.fa-google-plus:hover {
+.header-area2 .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content .navigation-top .main-navigation ul li a:hover,
+.header-area2 .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content .navigation-top .header-social ul li a i.fa-facebook:hover,
+.header-area2 .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content .navigation-top .header-social ul li a i.fa-twitter:hover,
+.header-area2 .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content .navigation-top .header-social ul li a i.fa-youtube-play:hover,
+.header-area2 .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content .navigation-top .header-social ul li a i.fa-google-plus:hover {
     color: #ff7607;
 }
-.header-area2 .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .header-social ul li a i.fa-facebook,
-.header-area2 .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .header-social ul li a i.fa-twitter,
-.header-area2 .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .header-social ul li a i.fa-youtube-play,
-.header-area2 .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .header-social ul li a i.fa-google-plus {
+.header-area2 .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content .navigation-top .header-social ul li a i.fa-facebook,
+.header-area2 .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content .navigation-top .header-social ul li a i.fa-twitter,
+.header-area2 .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content .navigation-top .header-social ul li a i.fa-youtube-play,
+.header-area2 .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content .navigation-top .header-social ul li a i.fa-google-plus {
     color: #fff;
 }
-.header-area2 .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .main-navigation ul li .dropdown-menu-item {
+.header-area2 .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content .navigation-top .main-navigation ul li .dropdown-menu-item {
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
@@ -763,10 +763,10 @@ a:hover {
 .header-area2 .header-fixed {
     background-color: #232323;
 }
-.header-area2 .header-fixed .ostion-top-wrap .ostion-menu .ostion-menu-content {
+.header-area2 .header-fixed .ryu-top-wrap .ryu-menu .ryu-menu-content {
     padding-top: 20px;
 }
-.header-area2 .header-fixed .ostion-top-wrap .ostion-logo {
+.header-area2 .header-fixed .ryu-top-wrap .ryu-logo {
     padding-top: 0;
 }
 /*===================================
@@ -793,25 +793,25 @@ a:hover {
 .error-menu-area .header-top.header-fixed {
     background-color: #232323;
 }
-.error-menu-area .header-top .ostion-top-wrap .ostion-menu {
+.error-menu-area .header-top .ryu-top-wrap .ryu-menu {
     height: auto;
 }
-.error-menu-area .header-top .ostion-top-wrap .ostion-logo,
-.error-menu-area .header-top .ostion-top-wrap .ostion-logo a {
+.error-menu-area .header-top .ryu-top-wrap .ryu-logo,
+.error-menu-area .header-top .ryu-top-wrap .ryu-logo a {
     height: auto;
     display: block;
 }
-.error-menu-area .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content {
+.error-menu-area .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content {
     padding-top: 0;
 }
-.error-menu-area .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .main-navigation {
+.error-menu-area .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content .navigation-top .main-navigation {
     padding-right: 0;
     float: right;
 }
-.error-menu-area .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .main-navigation ul li:last-child a {
+.error-menu-area .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content .navigation-top .main-navigation ul li:last-child a {
     margin-right: 0;
 }
-.error-menu-area .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .main-navigation ul li a {
+.error-menu-area .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content .navigation-top .main-navigation ul li a {
     color: #fff;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -820,7 +820,7 @@ a:hover {
     margin-right: 15px;
     margin-left: 15px;
 }
-.error-menu-area .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .main-navigation ul li a:hover {
+.error-menu-area .header-top .ryu-top-wrap .ryu-menu .ryu-menu-content .navigation-top .main-navigation ul li a:hover {
     color: #ff7607;
 }
 
@@ -1025,7 +1025,7 @@ a:hover {
     padding-right: 90px;
     padding-bottom: 65px;
 }
-.skill-area .skill-item .skill-heading .ostion__title {
+.skill-area .skill-item .skill-heading .ryu__title {
     margin-bottom: 37px;
 }
 .skill-area .skills {
@@ -1099,7 +1099,7 @@ a:hover {
     background-color: rgba(255,118,7, 0.97);
     z-index: -1;
 }
-.entry-area .entry-heading .ostion__title {
+.entry-area .entry-heading .ryu__title {
     width: 586px;
 }
 .entry-area .entry-static-wrap {
@@ -1144,16 +1144,16 @@ a:hover {
     padding-top: 117px;
     padding-bottom: 120px;
 }
-.about-area .about-heading .ostion__title {
+.about-area .about-heading .ryu__title {
     margin-bottom: 35px;
 }
-.about-area .about-heading .ostion__desc {
+.about-area .about-heading .ryu__desc {
     color: #232323;
     font-weight: 600;
     margin-bottom: 30px;
     padding-right: 50px;
 }
-.about-area .about-heading .ostion__litedesc {
+.about-area .about-heading .ryu__litedesc {
     margin-bottom: 38px;
     color: #686868;
     font-weight: 400;
@@ -1349,7 +1349,7 @@ a:hover {
 .about-area3 {
     background-color: #f7f7f7;
 }
-.about-area3 .about-heading .ostion__litedesc {
+.about-area3 .about-heading .ryu__litedesc {
     margin-bottom: 27px;
     padding-right: 70px;
 }
@@ -1638,7 +1638,7 @@ a:hover {
     border-radius: 2px;
     width: 100%;
 }
-.single-service-area .single-content .ostion-heading .ostion__title {
+.single-service-area .single-content .ryu-heading .ryu__title {
     margin-bottom: 36px;
 }
 .single-service-area .single-content .single-icon-box {
@@ -1881,7 +1881,7 @@ a:hover {
     font-weight: 700;
     margin-top: 20px;
 }
-.sidebar-shared .side-widget .download-container .ostion-btn {
+.sidebar-shared .side-widget .download-container .ryu-btn {
     display: block;
     text-align: center;
 }
@@ -2472,11 +2472,11 @@ a:hover {
     z-index: -1;
     background-color: rgba(35, 35, 35, 0.8);
 }
-.feature-area .feature-heading .ostion__meta {
+.feature-area .feature-heading .ryu__meta {
     font-size: 18px;
     font-weight: 600;
 }
-.feature-area .feature-heading .ostion__title {
+.feature-area .feature-heading .ryu__title {
     width: 775px;
     margin-left: auto;
     margin-right: auto;
@@ -2572,10 +2572,10 @@ a:hover {
     padding-bottom: 120px;
     margin-bottom: 10px;
 }
-.feature-area2 .feature-heading .ostion__title {
+.feature-area2 .feature-heading .ryu__title {
     margin-bottom: 50px;
 }
-.feature-area2 .feature-heading .ostion-btn:hover {
+.feature-area2 .feature-heading .ryu-btn:hover {
     background-color: #fff;
     color: #ff7607;
 }
@@ -2619,7 +2619,7 @@ a:hover {
     background-color: #232323;
     padding-bottom: 0;
 }
-.project-area2 .ostion-heading .ostion__meta {
+.project-area2 .ryu-heading .ryu__meta {
     color: #ff7607;
 }
 .project-area2 .container-fluid {
@@ -2818,14 +2818,14 @@ a:hover {
     padding-top: 117px;
     padding-bottom: 108px;
 }
-.project-single-area .project-single-wrap .single-heading .ostion__title,
-.project-single-area .project-single-wrap .single-heading2 .ostion__title {
+.project-single-area .project-single-wrap .single-heading .ryu__title,
+.project-single-area .project-single-wrap .single-heading2 .ryu__title {
     margin-bottom: 35px;
 }
 .project-single-area .project-single-wrap .single-heading2 {
     margin-top: 22px;
 }
-.project-single-area .project-single-wrap .single-heading2 .ostion__desc {
+.project-single-area .project-single-wrap .single-heading2 .ryu__desc {
     margin-top: 30px;
     margin-bottom: 30px;
     font-size: 22px;
@@ -2833,7 +2833,7 @@ a:hover {
     color: #232323;
     font-weight: 500;
 }
-.project-single-area .project-single-wrap .single-heading .ostion__litedesc+.ostion__litedesc {
+.project-single-area .project-single-wrap .single-heading .ryu__litedesc+.ryu__litedesc {
     margin-top: 35px;
 }
 /*=== single-lines-wrap ===*/
@@ -2968,19 +2968,19 @@ a:hover {
     border-radius: 2px;
     margin-bottom: 50px;
 }
-.history-area .ostion-heading .ostion__desc {
+.history-area .ryu-heading .ryu__desc {
     width: 810px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 58px;
 }
-.history-area .ostion-heading .quote__sign {
+.history-area .ryu-heading .quote__sign {
     font-size: 30px;
     font-weight: 700;
     line-height: 30px;
     text-transform: capitalize;
 }
-.history-area .ostion-heading .ostion__meta {
+.history-area .ryu-heading .ryu__meta {
     font-size: 14px;
 }
 /*===================================
@@ -3115,11 +3115,11 @@ a:hover {
     font-weight: 500;
     margin-bottom: 35px;
 }
-.error-area .error-box .ostion-btn {
+.error-area .error-box .ryu-btn {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.error-area .error-box .ostion-btn:hover {
+.error-area .error-box .ryu-btn:hover {
     background-color: #fff;
     color: #ff7607;
 }
@@ -3225,7 +3225,7 @@ a:hover {
 .hiw-area .about-heading {
     padding-left: 30px;
 }
-.hiw-area .about-heading .ostion__desc {
+.hiw-area .about-heading .ryu__desc {
     color: #686868;
     font-weight: 400;
     padding-right: 0;
@@ -3739,17 +3739,17 @@ a:hover {
 .fun-mixer-area .mixer-content-wrap .fun-mixer-heading {
     padding: 97px 0 0 64px;
 }
-.fun-mixer-area .mixer-content-wrap .fun-mixer-heading .ostion__meta {
+.fun-mixer-area .mixer-content-wrap .fun-mixer-heading .ryu__meta {
     color: #ff7607;
 }
-.fun-mixer-area .mixer-content-wrap .fun-mixer-heading .ostion__title {
+.fun-mixer-area .mixer-content-wrap .fun-mixer-heading .ryu__title {
     margin-bottom: 40px;
 }
-.fun-mixer-area .mixer-content-wrap .fun-mixer-heading .ostion__litedesc {
+.fun-mixer-area .mixer-content-wrap .fun-mixer-heading .ryu__litedesc {
     margin-bottom: 48px;
     color: #a8a8a8;
 }
-.fun-mixer-area .mixer-content-wrap .fun-mixer-heading .ostion-btn:hover {
+.fun-mixer-area .mixer-content-wrap .fun-mixer-heading .ryu-btn:hover {
     background-color: #fff;
     color: #ff7607;
 }
@@ -3944,7 +3944,7 @@ a:hover {
     padding-top: 112px;
     padding-bottom: 120px;
 }
-.cta-area .feature-video-area .cta-heading .ostion__title {
+.cta-area .feature-video-area .cta-heading .ryu__title {
     width: 850px;
     margin-left: auto;
     margin-right: auto;
@@ -3952,7 +3952,7 @@ a:hover {
     font-size: 50px;
     line-height: 60px;
 }
-.cta-area .feature-video-area .cta-heading .ostion__meta {
+.cta-area .feature-video-area .cta-heading .ryu__meta {
     color: #686868;
     margin-bottom: 57px;
     font-size: 24px;
@@ -4030,12 +4030,12 @@ a:hover {
 .cta-area3 .cta-btn-box {
     text-align: right;
 }
-.cta-area3 .cta-btn-box .ostion-btn {
+.cta-area3 .cta-btn-box .ryu-btn {
     background-color: #fff;
     color: #232323;
 
 }
-.cta-area3 .cta-btn-box .ostion-btn:hover {
+.cta-area3 .cta-btn-box .ryu-btn:hover {
     background-color: #232323;
     color: #fff;
 }
